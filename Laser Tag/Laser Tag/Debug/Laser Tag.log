@@ -1,0 +1,18 @@
+﻿Build started 9/22/2015 1:50:27 PM.
+     1>Project "E:\Homework\Algorithms\Laser Tag\Laser Tag\Laser Tag.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Development Tools\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt laser.cpp
+         laser.cpp
+     1>e:\homework\algorithms\laser tag\laser tag\laser.cpp(209): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\homework\algorithms\laser tag\laser tag\laser.cpp(268): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\homework\algorithms\laser tag\laser tag\laser.cpp(302): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\homework\algorithms\laser tag\laser tag\laser.cpp(318): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\homework\algorithms\laser tag\laser tag\laser.cpp(322): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Homework\Algorithms\Laser Tag\Debug\Laser Tag.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\Development Tools\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Homework\Algorithms\Laser Tag\Debug\Laser Tag.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Homework\Algorithms\Laser Tag\Debug\Laser Tag.lib" /MACHINE:X86 Debug\laser.obj
+         Laser Tag.vcxproj -> E:\Homework\Algorithms\Laser Tag\Debug\Laser Tag.exe
+     1>Done Building Project "E:\Homework\Algorithms\Laser Tag\Laser Tag\Laser Tag.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.88
